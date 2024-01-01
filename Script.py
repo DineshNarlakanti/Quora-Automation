@@ -20,9 +20,9 @@ driver.implicitly_wait(10)
 
 # Enters credentials to login into the account
 driver.maximize_window()
-driver.find_element(By.XPATH, "//*[@id='email']").send_keys("n.dinesh.kumar123@gmail.com")
+driver.find_element(By.XPATH, "//*[@id='email']").send_keys("")
 password = driver.find_element(By.XPATH, "//*[@id='password']")
-password.send_keys("Qwerty123!")
+password.send_keys("")
 password.send_keys(Keys.ENTER)
 driver.refresh()
 
